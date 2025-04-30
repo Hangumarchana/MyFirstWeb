@@ -1,0 +1,968 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+.productDetailIMG{
+    position:absolute;
+    top:150px;
+    align-items: center;
+    left:50px;
+
+}
+.active {
+    background-color: #111;
+
+}
+#productImage{
+    position:absolute;
+    width:auto;
+    height:800px;
+    right:20px;
+    top:50px;
+    transition: opacity 0.5s ease-in-out;
+    border: 0.5px solid #efefef;
+
+
+
+}
+.selected {
+    border: 2px solid blue;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+.imageShow{
+    position:absolute;
+    background-color: white;
+    width:700px;
+    height:900px;
+    border: 0.5px solid #dddddd;
+    border-radius: 5px;
+
+
+}
+
+
+#pd3 {
+    position: absolute;
+    display: block;
+    width: auto;
+    height: 120px;
+    left: 20px;
+    top: 50px;
+    border: 0.5px solid #ffffff;
+    outline: none;
+}
+
+#pd3:focus {
+    outline: 2px solid #3535ff;
+}
+
+#pd4{
+    position: absolute;
+    display: block;
+    width: auto;
+    height: 120px;
+    left: 20px;
+    top: 180px;
+    border: 0.5px solid #ffffff;
+    outline: none;
+}
+#pd4:focus {
+    outline: 2px solid #3535ff;
+}
+#Star{
+    width:20px;
+    position: absolute;
+    top: 480px;
+    left:120px;
+    transition:  0.4s ease-in-out;
+}
+#Star:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.details{
+    position:absolute;
+    top:150px;
+    right:50px;
+    background-color: white;
+    width:700px;
+    height: 900px;
+    border: 0.5px solid #dddddd;
+    border-radius: 5px;
+}
+#productPrice{
+    position: absolute;
+    top: 725px;
+    left: 110px;
+    font-size: 24px;
+    font-weight: bold;
+    opacity: 1;
+    font-family: 'Amiko', sans-serif;
+    letter-spacing: 1px;
+}
+#brandName{
+    position: absolute;
+    top: 530px;
+    left: 110px;
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 0.5;
+    font-family: 'Blinker', cursive;
+    letter-spacing: 1px;
+
+}
+#Gender{
+    position: absolute;
+    top: 630px;
+    left: 120px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Blinker', cursive;
+    opacity: 0.5;
+
+
+}
+
+#Type{
+    position: absolute;
+    top: 680px;
+    left: 105px;
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 0.5;
+    font-family: 'Blinker', cursive;
+    letter-spacing: 1px;
+}
+
+#itemSold{
+    position: absolute;
+    top: 480px;
+    left: 180px;
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 0.5;
+    font-family: 'Blinker', cursive;
+    letter-spacing: 1px;
+
+}
+#rating{
+    position: absolute;
+    top: 480px;
+    left: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 0.5;
+    font-family: 'Blinker', cursive;
+    letter-spacing: 1px;
+}
+#productName{
+    font-family: 'Actor', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #00197e;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+
+}
+#line1{
+    position: absolute;
+    top: 120px;
+    padding: 0.2px 310px;
+    background-color: grey ;
+    border: none;
+    left: 40px;
+    opacity: 0.3;
+
+}
+#social{
+    position: absolute;
+    font-family: 'Actor', sans-serif;
+    top:80px;
+    left: 40px;
+    font-size: 16px;
+
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+#imgContainer{
+    position: absolute;
+    top: 69px;
+    right:40px;
+
+    display: flex;
+    gap: 10px;
+
+
+
+}
+#lg1{
+    width: 35px;
+    opacity: 0.3;
+    transition: 0.4s ease-in-out;
+}
+#lg1:hover{
+    opacity: 1;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#lg2{
+    width: 35px;
+    opacity: 0.3;
+    transition: 0.4s ease-in-out;
+}
+#lg2:hover{
+    opacity: 1;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#lg3{
+    width: 35px;
+    opacity: 0.3;
+    transition: 0.4s ease-in-out;
+}
+#lg3:hover{
+    opacity: 1;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#lg4{
+    width: 35px;
+    opacity: 0.3;
+    transition: 0.4s ease-in-out;
+}
+#lg4:hover{
+    opacity: 1;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#cr{
+    position: absolute;
+    top: 350px;
+    left:40px;
+    font-family: 'Actor', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: #00197e;
+}
+
+#colorContainer{
+
+    display: flex;
+    position: absolute;
+    top: 400px;
+    gap: 15px;
+    left: 40px;
+    flex-direction: row;
+
+
+}
+#rec1{
+    background-color: #111111;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: 0.1s ease-in-out;
+    cursor: pointer;
+
+}
+#rec1:focus{
+    outline: 2px solid #3535ff;
+    outline-offset: 2px;
+    transform: scale(1.1);
+}
+#rec2{
+    background-color: green;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: 0.1s ease-in-out;
+    cursor: pointer;
+}
+#rec2:focus{
+    outline: 2px solid #3535ff;
+    outline-offset: 2px;
+    transform: scale(1.1);
+}
+#rec3{
+    background-color: #00fff7;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: 0.1s ease-in-out;
+    cursor: pointer;
+}
+#rec3:focus{
+    outline: 2px solid #3535ff;
+    outline-offset: 2px;
+    transform: scale(1.1);
+}
+#rec4{
+    background-color: #ff0000;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: 0.1s ease-in-out;
+    cursor: pointer;
+
+}
+#rec4:focus{
+    outline: 2px solid #3535ff;
+    outline-offset: 2px;
+    transform: scale(1.1);
+}
+#rec5{
+    background-color: #0032ff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: 0.1s ease-in-out;
+    cursor: pointer;
+}
+#rec5:focus{
+    outline: 2px solid #3535ff;
+    outline-offset: 2px;
+    transform: scale(1.1);
+}
+#ColorName{
+    font-family: 'Blinker', sans-serif;
+    position: absolute;
+    top: 352px;
+    left: 110px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    opacity: 0.5;
+    font-size: 18px;
+
+}
+#description{
+    font-family: 'Actor', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #00197e;
+    position: absolute;
+    top: 150px;
+    left: 40px;
+
+}
+#dep{
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    font-family: 'Blinker', cursive;
+    max-width: 650px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height:30px;
+
+}
+#price{
+    position: absolute;
+    top: 150px;
+    left: 40px;
+
+}
+#shopDep{
+    position: absolute;
+    top: 300px;
+    left: 40px;
+    letter-spacing: 1px;
+    font-family: 'Blinker', cursive;
+    font-weight: bold;
+    font-style: italic;
+    opacity: 0.8;
+
+
+}
+
+#size{
+    position: absolute;
+    top: 580px;
+    left: 40px;
+    font-family: 'Actor', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #00197e;
+
+
+
+}
+
+#productSize{
+    position: absolute;
+    top: 580px;
+    left: 160px;
+    font-family: 'Blinker', cursive;
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 0.5;
+    letter-spacing: 1px;
+
+
+}
+#brand{
+    position: absolute;
+    top: 530px;
+    left: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #00197e;
+
+
+}
+
+
+#rt{
+    position: absolute;
+    top: 480px;
+    left: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #00197e;
+}
+
+#gen{
+    position: absolute;
+    top:630px;
+    left: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #00197e;
+
+}
+#ty{
+    position: absolute;
+    top: 680px;
+    left: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #00197e;
+
+}
+#Ct{
+    display: none;
+}
+#price{
+    position: absolute;
+    top: 730px;
+    left: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #00197e;
+}
+#koko{
+    width: 50px;
+    top:760px;
+    left: 300px;
+    position: absolute;
+}
+#koko:hover{
+    cursor: pointer;
+    border: 1px solid black;
+}
+#int{
+    width: 55px;
+    top:790px;
+    left: 300px;
+    position: absolute;
+}
+#int:hover{
+    cursor: pointer;
+    border: 1px solid black;
+}
+#kpay{
+    position: absolute;
+    top: 760px;
+    left: 90px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Blinker', cursive;
+    opacity: 0.5;
+    letter-spacing: 2px;
+
+}
+#intpay{
+    position: absolute;
+    top: 790px;
+    left: 90px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Blinker', cursive;
+    opacity: 0.5;
+
+    letter-spacing: 2px;
+}
+
+.FooterRectangle{
+    position: absolute;
+    top:1100px;
+    width:100vw;
+    height:400px;
+    background-color: #1c1c1c;
+}
+.company{
+    position: absolute;
+    top:50px;
+    font-family: 'Amiko', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    left:60px;
+    color: #ffffff;
+
+}
+
+.copyright{
+    position: absolute;
+    bottom:10px;
+    left:640px;
+    font-family: 'Andika New Basic', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+}
+.tiktok{
+    position: absolute;
+    top:118px;
+    left:750px;
+    font-family: 'Blinker', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    opacity: 0.5;
+}
+.tiktok:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.instagram{
+    position: absolute;
+    top:218px;
+    left:750px;
+    font-family: 'Blinker', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    opacity: 0.5;
+
+}
+.instagram:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.facebook{
+    position: absolute;
+    top:268px;
+    left:750px;
+    font-family: 'Blinker', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    opacity: 0.5;
+
+
+}
+.facebook:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.whatsapp{
+    position: absolute;
+    top:168px;
+    left:750px;
+    font-family: 'Blinker', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    opacity: 0.5;
+}
+.whatsapp:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.Subscribe{
+    position: absolute;
+    top:50px;
+    font-family: 'Amiko', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    left:1150px;
+    color: #ffffff;
+}
+
+.connect{
+    position: absolute;
+    top:50px;
+    font-family: 'Amiko', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    left:700px;
+    color: #ffffff;
+}
+
+.policy{
+    position: absolute;
+    bottom:70px;
+    right:85px;
+    font-family: 'Andika New Basic', sans-serif;
+    font-size: 10px;
+    max-width: 300px;
+    color: #ffffff;
+
+}
+.FAQ{
+    position: absolute;
+    top:100px;
+    left:60px;
+    font-family: 'Blinker', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    opacity: 0.5;
+}
+.FAQ:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.about{
+    position: absolute;
+    top:130px;
+    left:60px;
+    font-family: 'Blinker', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    opacity: 0.5;
+}
+.about:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.privacy{
+    position: absolute;
+    top:160px;
+    left:60px;
+    font-family: 'Blinker', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    opacity: 0.5;
+}
+.privacy:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.delivery{
+    position: absolute;
+    top:190px;
+    left:60px;
+    font-family: 'Blinker', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    opacity: 0.5;
+}
+.delivery:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.promotions{
+    position: absolute;
+    top:220px;
+    left:60px;
+    font-family: 'Blinker', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    opacity: 0.5;
+
+}
+
+.promotions:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.return{
+    position: absolute;
+    top:250px;
+    left:60px;
+    font-family: 'Blinker', sans-serif;
+    font-size: 16px;
+    opacity: 0.5;
+    color: #ffffff;
+}
+.return:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.TK{
+    position: absolute;
+    top:110px;
+    left:700px;
+    height:38px;
+    width:38px;
+
+}
+.WA{
+    position: absolute;
+    top:160px;
+    left:700px;
+    height:40px;
+    width:40px;
+
+}
+.FB{
+    position: absolute;
+    top:260px;
+    left:700px;
+    height:37px;
+    width:37px;
+
+}
+.IG{
+    position: absolute;
+    top:210px;
+    left:700px;
+    height:37px;
+    width:37px;
+
+}
+.Email{
+    position: absolute;
+    top:100px;
+    right:65px;
+    padding: 10px 120px;
+    border:none;
+    border-radius:10px;
+    font-family: 'Anton', sans-serif;
+    font-size: 36px;
+
+
+}
+.Email:hover{
+
+    cursor: pointer;
+    background-color: #b0b0b0;
+}
+.SUB{
+    position: absolute;
+    top:200px;
+    right:65px;
+    padding: 10px 90px;
+    border:none;
+    border-radius:10px;
+    font-family: 'Anton', sans-serif;
+    font-size: 36px;
+
+}
+.SUB:hover{
+    cursor: pointer;
+    background-color: #b0b0b0;
+}
+.horizontal-line {
+    width: 80%;
+    height: 2px;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 50px;
+    left: 10%;
+
+}
+.Cookies{
+    position: absolute;
+    top:280px;
+    left:60px;
+    font-family: 'Blinker', sans-serif;
+    font-size: 16px;
+    opacity: 0.5;
+    color: #ffffff;
+}
+.Cookies:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+#addToCart{
+    position: absolute;
+    bottom: 25px;
+    left:110px;
+    background-color: #111111;
+    color: white;
+    border: none;
+    padding: 15px 200px;
+    border-radius: 5px;
+    font-family: 'Amiko', sans-serif;
+    font-size: 12px;
+    box-shadow: 0 5px 10px #b0b0b0;
+    transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
+
+
+
+}
+#addToCart:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.rectangle {
+    position: fixed;
+    top: 80px;
+    background-color: #ffffff;
+    width: 550px;
+    height: 250px;
+    right: 200px;
+    border-radius: 5px;
+    z-index: -1;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.triangle {
+    position: fixed;
+    top: 66px;
+    right: 250px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid white;
+    z-index: -1;
+}
+
+#notificationContainer {
+    position: fixed;
+    top: 120px;
+    right: 250px;
+    width: 350px;
+    text-align: center;
+    z-index: 1;
+
+
+
+}
+#notificationMessage{
+    position: absolute;
+    top: -25px;
+    font-family: 'Blinker', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    left:-120px;
+    font-weight: bold;
+    color: #1c1c1c;
+
+
+
+
+
+
+}
+.close-btn{
+    position: absolute;
+    top: 150px;
+    width: 200px;
+    height: 30px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Blinker', sans-serif;
+    font-size: 16px;
+    left:-100px;
+}
+
+.close-btn:hover{
+    cursor: pointer;
+    background-color: #ff4b4b;
+}
+.checkout-btn{
+    position: absolute;
+    top: 150px;
+    width: 200px;
+    height: 30px;
+    background-color: navy;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Blinker', sans-serif;
+    font-size: 16px;
+    left:150px;
+
+}
+.checkout-btn:hover{
+    cursor: pointer;
+    background-color: #1c2e95;
+}
+
+
+#productImage1 {
+    width: 80px;
+    height: 120px;
+    border-radius: 5px;
+    margin: 10px auto;
+    display: block;
+    left:-120px;
+    position: absolute;
+
+}
+
+#productName1{
+    font-size:16px;
+    font-family:'Actor', sans-serif;
+    font-weight: bold;
+    text-align: left;
+    padding:5px 15px;
+    letter-spacing:1px;
+    position: absolute;
+    top:50px;
+}
+
+#productPrice1{
+    font-size:20px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 5px;
+    color: #000000;
+    text-align: left;
+    padding:5px 15px;
+    top:100px;
+    position: absolute;
+    left:250px;
+}
+
+#productBrand1{
+    font-size:14px;
+    text-align: left;
+    font-family: 'Blinker', sans-serif;
+    opacity: 0.5;
+    padding:5px 15px;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+}
+
+#total{
+    font-size:20px;
+    font-family:'Actor', sans-serif;
+    font-weight: bold;
+    text-align: left;
+    padding:5px 15px;
+    letter-spacing:2px;
+    position: absolute;
+    top:100px;
+}
+#line{
+    top: 100px;
+    position: absolute;
+    padding: 0.5px 160px;
+    border:none;
+    background-color: #111111;
+    left: 10px;
+    opacity: 0.2;
+
+}
+.hidden{
+    display: none;
+}
+
