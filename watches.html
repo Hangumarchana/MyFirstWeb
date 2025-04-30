@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Watches.css">
+    <script src="imageSlider.js"></script>
+    <script src="navigationHighlighter.js"></script>
+    <script src="Home.js"></script>
+    <script src="userCredentials.js"></script>
+    <script src="navFinder.js"></script>
+
+
+
+
+    <title>HangStore</title>
+</head>
+
+<body >
+
+<header>
+    <div class="TopRectangle" >
+        <h1 class="WebSiteLogo"> Hang Store</h1>
+        <img class="MainLogo" src="Mainlogo.png" width="200" height="200"  onclick="redirectToHome()">
+        <input type="text" class="searchbar" placeholder="Search Here ....">
+        <div class="userLogin">
+            <p class="userD1" id="myAc">Login / SignUp </p>
+            <p class="userD2" onclick="openPanel()" id="myAc1">My Account</p>
+
+
+        </div>
+
+        <select class="categories" onchange="CategorySelector(this.value)">
+            <option>All Categories</option>
+            <option>Women</option>
+            <option>Men</option>
+            <option>Watches</option>
+            <option>Kids & Baby</option>
+            <option>Home & Living</option>
+
+
+        </select>
+
+
+        <img src="cart.png"  class="ShoppingCart" width="30" height="30" alt="ShoppingCart" onclick="redirectToCart()">
+        <span id="cartItemCount">0</span>
+        <img class="SearchIcon" src="search.png" width="15" height="15" alt="search">
+        <p class="cart-text"> Cart</p>
+        <div class="vertical-Line">
+
+        </div>
+
+        <div>
+            <nav class="navigation">
+                <ul>
+                    <li id="nav1" class="Home" onclick="redirectToHome() "><a href="#home" > Home</a> </li>
+                    <li id="nav2" class="Women" onclick="redirectToWomen()"><a href="#women">Women</a></li>
+                    <li id="nav3" class="Men" onclick="redirectToMen()"><a href="#Men"> Men</a></li>
+                    <li id="nav4" class="Watches"  onclick="redirectToWatches()"><a href="#watches">Watches</a></li>
+                    <li id="nav5" class="Kids" onclick="redirectToKids()"><a href="#Kids" onclick="redirectToKids()">Kids & Baby</a></li>
+                    <li id="nav6" class="Home" onclick="redirectToLiving()"><a href="#home">Home & Living</a></li>
+                    <li id="nav7" class="Shoes" onclick="redirectToShoes()"> <a href="#Shoes"> Shoes</a></li>
+                    <li id="nav8" class="Bags" onclick="redirectToBags()"><a href="#Bags"> Bags</a></li>
+                    <li id="nav9" class="Toys" onclick="redirectToToys()"><a href="#Toys">Toys</a> </li>
+                    <li id="nav10" class="Beauty" onclick="redirectToBeauty()"> <a href="#beauty">Beauty & Health</a></li>
+                    <li id="nav11" class="Gifting" onclick="redirectToGifting()"><a href="#gifting">Gifting</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </div>
+
+</header>
+<div class="blur-background" id="blurBackground"></div>
+<div id="loginContainer"></div>
+<div id="alertDisplay"><p id="al1"> HI HANGUM </p></div>
+<div class="triangle"></div>
+<img src="/assets/Essensials/noProduct.gif" id="NoPD" alt="No Product" >
+<p id="msg">Watch section is coming soon!</p>
+<button id="shop" onclick="toHome()">SHOP OUR PRODUCTS </button>
+<section class="Footer">
+    <div class="FooterRectangle">
+        <P class="company">COMPANY & OUR POLICY</P>
+        <P class="connect">CONNECT WITH US</P>
+        <P class="Subscribe">SUBSCRIBE TO  NEWSLETTER</P>
+        <P class="FAQ">FAQ</P>
+        <P class="about us">ABOUT US</P>
+        <P class="privacy">PRIVACY POLICY</P>
+        <p class="delivery">DELIVERY TERMS</p>
+        <p class="promotions">PROMOTIONS</p>
+        <p class="return">RETURN POLICY</p>
+        <p class="tiktok">TIKTOK</p>
+        <p class="instagram">INSTAGRAM</p>
+        <p class="facebook">FACEBOOK</p>
+        <p class="whatsapp">WHATSAPP</p>
+        <p class="Cookies">COOKIES SETTINGS</p>
+
+        <p class="policy">
+            By subscribing, you agree to receive recurring automated
+            promotional and personalized marketing emails (e.g. cart
+            reminders) from us at the email used when subscribing.
+        </p>
+        <p class="copyright" >© 2024 hangstore All rights reserved. Powered by 20231905</p>
+        <img src="social%20(2).png" class="FB" alt="FacebookLogo">
+        <img src="logo.png" class="WA" alt="WhatsappLogo">
+        <img src="tiktok%20(1).png" class="TK" alt="TikTokLogo">
+        <img src="instagram%20(1).png" class="IG" alt="InstagramLogo">
+        <button class="Email">EMAIL</button>
+        <button class="SUB">SUBSCRIBE</button>
+        <div class="horizontal-line"></div>
+
+
+
+
+    </div>
+
+</section>
+</body>
+</html>
