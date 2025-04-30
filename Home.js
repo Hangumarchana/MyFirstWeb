@@ -32,7 +32,7 @@ function redirectToGifting(){
     window.location.href = "Gifting.html";
 }
 function redirectToHome(){
-    window.location.href = "home.html";
+    window.location.href = "index.html";
 }
 function CategorySelector(value){
     if (value === "Women"){
