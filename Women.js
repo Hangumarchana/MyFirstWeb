@@ -3,7 +3,7 @@ function redirectToCart() {
     window.location.href = "Cart.html";
 }
 function redirectToHome() {
-    window.location.href = "home.html";
+    window.location.href = "index.html";
 }
 function redirectToWomen() {
     window.location.href = "Women.html";
