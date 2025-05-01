@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    if (window.location.pathname.endsWith("home.html")) {
+    if (window.location.pathname.endsWith("index.html")) {
         document.getElementById("nav1").classList.add("active");
     }
 
