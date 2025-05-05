@@ -6,25 +6,25 @@
         <subcategory>Top</subcategory>
         <brand>Modano</brand>
         <images>
-            <image>/assets/Women/p2.jpg</image>
-            <hoverImage>/assets/Women/p2-1.jpg</hoverImage>
-            <Image>/assets/Women/star.png</Image>
+            <image>p2.jpg</image>
+            <hoverImage>p2-1.jpg</hoverImage>
+            <Image>/star.png</Image>
         </images>
         <size>L</size>
         <price>299</price>
         <id>1</id>
         <ratingScore>4.8</ratingScore>
         <itemSold>|  10,000+ SOLD</itemSold>
-    </product>
+    
     <product>
         <name>Envogue Women's Chic Casual Dress</name>
         <category>Women</category>
         <subcategory>Dress</subcategory>
         <brand>Envogue</brand>
         <images>
-            <image>/assets/Women/p6-1.webp</image>
-            <hoverImage>/assets/Women/p6.webp</hoverImage>
-            <Image>/assets/Women/star.png</Image>
+            <image>p6-1.webp</image>
+            <hoverImage>p6.webp</hoverImage>
+            <Image>star.png</Image>
         </images>
         <size>M</size>
         <price>115</price>
@@ -38,9 +38,9 @@
         <subcategory>Top</subcategory>
         <brand>Modano</brand>
         <images>
-            <image>/assets/Women/p3.jpg</image>
-            <hoverImage>/assets/Women/p3-1.jpg</hoverImage>
-            <Image>/assets/Women/star.png</Image>
+            <image>p3.jpg</image>
+            <hoverImage>p3-1.jpg</hoverImage>
+            <Image>star.png</Image>
         </images>
         <size>S</size>
         <price>135</price>
@@ -54,9 +54,9 @@
         <subcategory>Top</subcategory>
         <brand>Modano</brand>
         <images>
-            <image>/assets/Women/p4.jpg</image>
-            <hoverImage>/assets/Women/p4-1.webp</hoverImage>
-            <Image>/assets/Women/star.png</Image>
+            <image>p4.jpg</image>
+            <hoverImage>p4-1.webp</hoverImage>
+            <Image>star.png</Image>
         </images>
         <size>M</size>
         <price>115</price>
@@ -70,9 +70,9 @@
         <subcategory>Office Wear</subcategory>
         <brand>HUF &amp; DEE</brand>
         <images>
-            <image>/assets/Women/p7.webp</image>
-            <hoverImage>/assets/Women/p7-1.webp</hoverImage>
-            <Image>/assets/Women/star.png</Image>
+            <image>p7.webp</image>
+            <hoverImage>p7-1.webp</hoverImage>
+            <Image>star.png</Image>
         </images>
         <size>M</size>
         <price>115</price>
@@ -86,9 +86,9 @@
         <subcategory>Top</subcategory>
         <brand>Modano</brand>
         <images>
-            <image>/assets/Women/p8.webp</image>
-            <hoverImage>/assets/Women/p8-1.webp</hoverImage>
-            <Image>/assets/Women/star.png</Image>
+            <image>p8.webp</image>
+            <hoverImage>p8-1.webp</hoverImage>
+            <Image>star.png</Image>
         </images>
         <size>L</size>
         <price>165</price>
@@ -102,9 +102,9 @@
         <subcategory>Office Wear</subcategory>
         <brand>Andriana</brand>
         <images>
-            <image>/assets/Women/p9.webp</image>
-            <hoverImage>/assets/Women/p9-1.webp</hoverImage>
-            <Image>/assets/Women/star.png</Image>
+            <image>p9.webp</image>
+            <hoverImage>p9-1.webp</hoverImage>
+            <Image>star.png</Image>
         </images>
         <size>L</size>
         <price>199</price>
@@ -118,9 +118,9 @@
         <subcategory>Pant</subcategory>
         <brand>Andriana</brand>
         <images>
-            <image>/assets/Women/p10-1.webp</image>
-            <hoverImage>/assets/Women/p10.webp</hoverImage>
-            <Image>/assets/Women/star.png</Image>
+            <image>p10-1.webp</image>
+            <hoverImage>p10.webp</hoverImage>
+            <Image>star.png</Image>
         </images>
         <size>L</size>
         <price>65</price>
@@ -134,9 +134,9 @@
         <subcategory>Pant</subcategory>
         <brand>Andriana</brand>
         <images>
-            <image>/assets/Women/p11-1.webp</image>
-            <hoverImage>/assets/Women/p11.webp</hoverImage>
-            <Image>/assets/Women/star.png</Image>
+            <image>p11-1.webp</image>
+            <hoverImage>p11.webp</hoverImage>
+            <Image>star.png</Image>
         </images>
         <size>L</size>
         <price>95</price>
@@ -150,9 +150,9 @@
         <subcategory>Pant</subcategory>
         <brand>Andriana</brand>
         <images>
-            <image>/assets/Women/p12.webp</image>
-            <hoverImage>/assets/Women/p-12-1.webp</hoverImage>
-            <Image>/assets/Women/star.png</Image>
+            <image>p12.webp</image>
+            <hoverImage>p-12-1.webp</hoverImage>
+            <Image>star.png</Image>
         </images>
         <size>S</size>
         <price>132</price>
@@ -166,9 +166,9 @@
         <subcategory>Top</subcategory>
         <brand>Modano</brand>
         <images>
-            <image>/assets/Women/p13.webp</image>
-            <hoverImage>/assets/Women/p13-1.webp</hoverImage>
-            <Image>/assets/Women/star.png</Image>
+            <image>p13.webp</image>
+            <hoverImage>p13-1.webp</hoverImage>
+            <Image>star.png</Image>
         </images>
         <size>L</size>
         <price>176</price>
@@ -182,9 +182,9 @@
         <subcategory>Dress</subcategory>
         <brand>Andriana</brand>
         <images>
-            <image>/assets/Women/p20.webp</image>
-            <hoverImage>/assets/Women/p20-1.webp</hoverImage>
-            <Image>/assets/Women/star.png</Image>
+            <image>./assets/Women/p20.webp</image>
+            <hoverImage>./assets/Women/p20-1.webp</hoverImage>
+            <Image>star.png</Image>
         </images>
         <size>L</size>
         <price>199</price>
@@ -200,7 +200,7 @@
         <images>
             <image>/assets/Women/p18-1.webp</image>
             <hoverImage>/assets/Women/p18.webp</hoverImage>
-            <Image>/assets/Women/star.png</Image>
+            <Image>star.png</Image>
         </images>
         <size>S</size>
         <price>136</price>
@@ -218,7 +218,7 @@
         <images>
             <image>./assets/Women/p17.webp</image>
             <hoverImage>./assets/Women/p17-1.webp</hoverImage>
-            <Image>./assets/Women/star.png</Image>
+            <Image>star.png</Image>
         </images>
         <size>M</size>
         <price>276</price>
@@ -232,9 +232,9 @@
         <subcategory>Dress</subcategory>
         <brand>Modano</brand>
         <images>
-            <image>./assets/Women/p13.webp</image>
-            <hoverImage>./assets/Women/p13-1.webp</hoverImage>
-            <Image>./assets/Women/star.png</Image>
+            <image>p13.webp</image>
+            <hoverImage>p13-1.webp</hoverImage>
+            <Image>star.png</Image>
         </images>
         <size>L</size>
         <price>176</price>
@@ -250,7 +250,7 @@
         <images>
             <image>./assets/Women/p21.webp</image>
             <hoverImage>./assets/Women/p21.webp</hoverImage>
-            <Image>./assets/Women/star.png</Image>
+            <Image>star.png</Image>
         </images>
         <size>S</size>
         <price>140</price>
@@ -266,7 +266,7 @@
         <images>
             <image>./assets/Women/p22-1.webp</image>
             <hoverImage>./assets/Women/p22.webp</hoverImage>
-            <Image>./assets/Women/star.png</Image>
+            <Image>star.png</Image>
         </images>
         <size>S</size>
         <price>200</price>
@@ -282,7 +282,7 @@
         <images>
             <image>./assets/Women/p24.webp</image>
             <hoverImage>./assets/Women/p24-1.jpg</hoverImage>
-            <Image>./assets/Women/star.png</Image>
+            <Image>star.png</Image>
         </images>
         <size>S</size>
         <price>196</price>
@@ -298,7 +298,7 @@
         <images>
             <image>./assets/Women/p23.webp</image>
             <hoverImage>./assets/Women/p23-1.webp</hoverImage>
-            <Image>./assets/Women/star.png</Image>
+            <Image>star.png</Image>
         </images>
         <size>S</size>
         <price>120</price>
@@ -314,7 +314,7 @@
         <images>
             <image>./assets/Women/29.webp</image>
             <hoverImage>./assets/Women/29-1.webp</hoverImage>
-            <Image>./assets/Women/star.png</Image>
+            <Image>star.png</Image>
         </images>
         <size>M</size>
         <price>220</price>
@@ -330,7 +330,7 @@
         <images>
             <image>./assets/Women/27.webp</image>
             <hoverImage>./assets/Women/27-1.webp</hoverImage>
-            <Image>./assets/Women/star.png</Image>
+            <Image>star.png</Image>
         </images>
         <size>M</size>
         <price>126</price>
@@ -346,7 +346,7 @@
         <images>
             <image>./assets/Women/28.webp</image>
             <hoverImage>./assets/Women/28-1.webp</hoverImage>
-            <Image>./assets/Women/star.png</Image>
+            <Image>star.png</Image>
         </images>
         <size>M</size>
         <price>234</price>
@@ -362,7 +362,7 @@
         <images>
             <image>./assets/Women/30.webp</image>
             <hoverImage>./assets/Women/30-1.webp</hoverImage>
-            <Image>./assets/Women/star.png</Image>
+            <Image>star.png</Image>
         </images>
         <size>L</size>
         <price>274</price>
@@ -378,7 +378,7 @@
         <images>
             <image>./assets/Women/31.webp</image>
             <hoverImage>./assets/Women/31-1.webp</hoverImage>
-            <Image>./assets/Women/star.png</Image>
+            <Image>star.png</Image>
         </images>
         <size>L</size>
         <price>345</price>
@@ -394,7 +394,7 @@
         <images>
             <image>./assets/Women/32.webp</image>
             <hoverImage>./assets/Women/32-1.webp</hoverImage>
-            <Image>./assets/Women/star.png</Image>
+            <Image>star.png</Image>
         </images>
         <size>L</size>
         <price>150</price>
@@ -410,7 +410,7 @@
         <images>
             <image>./assets/Women/33.webp</image>
             <hoverImage>./assets/Women/33-1.webp</hoverImage>
-            <Image>./assets/Women/star.png</Image>
+            <Image>star.png</Image>
         </images>
         <size>L</size>
         <price>314</price>
@@ -426,7 +426,7 @@
         <images>
             <image>./assets/Women/40.webp</image>
             <hoverImage>./assets/Women/40-1.webp</hoverImage>
-            <Image>./assets/Women/star.png</Image>
+            <Image>star.png</Image>
         </images>
         <size>L</size>
         <price>196</price>
@@ -442,7 +442,7 @@
         <images>
             <image>./assets/Women/41.webp</image>
             <hoverImage>./assets/Women/41-1.webp</hoverImage>
-            <Image>./assets/Women/star.png</Image>
+            <Image>star.png</Image>
         </images>
         <size>L</size>
         <price>176</price>
@@ -459,7 +459,7 @@
         <images>
             <image>assets/Women/42.webp</image>
             <hoverImage>assets/Women/42-1.webp</hoverImage>
-            <image>assets/star.png</image>
+            <Image>star.png</Image>
         </images>
         <size>S</size>
         <price>196</price>
@@ -475,7 +475,7 @@
         <images>
             <image>assets/Women/43.webp</image>
             <hoverImage>assets/Women/43-1.webp</hoverImage>
-            <image>assets/star.png</image>
+            <Image>star.png</Image>
         </images>
         <size>S</size>
         <price>176</price>
@@ -491,7 +491,7 @@
         <images>
             <image>assets/Women/44.webp</image>
             <hoverImage>assets/Women/44-1.webp</hoverImage>
-            <image>assets/star.png</image>
+            <Image>star.png</Image>
         </images>
         <size>S</size>
         <price>176</price>
@@ -507,7 +507,7 @@
         <images>
             <image>assets/Women/45.webp</image>
             <hoverImage>assets/Women/45-1.webp</hoverImage>
-            <image>assets/star.png</image>
+            <Image>star.png</Image>
         </images>
         <size>M</size>
         <price>176</price>
@@ -523,7 +523,7 @@
         <images>
             <image>assets/Women/46.webp</image>
             <hoverImage>assets/Women/46-1.webp</hoverImage>
-            <image>assets/star.png</image>
+            <Image>star.png</Image>
         </images>
         <size>M</size>
         <price>124</price>
@@ -539,7 +539,7 @@
         <images>
             <image>assets/Women/47.webp</image>
             <hoverImage>assets/Women/47-1.webp</hoverImage>
-            <image>assets/star.png</image>
+            <Image>star.png</Image>
         </images>
         <size>M</size>
         <price>196</price>
@@ -556,7 +556,7 @@
     <images>
         <image>./assets/Women/48.webp</image>
         <hoverImage>./assets/Women/48-1.webp</hoverImage>
-        <image>./assets/star.png</image>
+        <Image>star.png</Image>
     </images>
     <size>M</size>
     <price>176</price>
@@ -572,7 +572,7 @@
         <images>
             <image>assets/Women/50.webp</image>
             <hoverImage>assets/Women/50-1.webp</hoverImage>
-            <Image>assets/star.png</Image>
+            <Image>star.png</Image>
 
         </images>
         <size>M</size>
