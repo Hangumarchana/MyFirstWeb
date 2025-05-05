@@ -11,8 +11,8 @@ function loginPanel() {
             <button id="login-button" class="login-button" onclick="submit()">LOG IN</button>
             <p class="information">Don't have an account? <a class="anchor1" onclick="signIn()">Sign up</a></p>
             <p id="para2">Or, Log in with </p>
-            <img src="http://127.0.0.1:5500/assets/Essensials/google.png" alt="Google-icon" class="googleIcon">
-            <img src="http://127.0.0.1:5500/assets/Essensials/facebook%20(3).png" alt="Facebook Icon" class="facebookIcon">
+            <img src="/assets/Essensials/google.png" alt="Google-icon" class="googleIcon">
+            <img src="/assets/Essensials/facebook%20(3).png" alt="Facebook Icon" class="facebookIcon">
             <p onclick="closePanel()" class="closeIcon">🗙</p>
             <p class="Google">Google</p>
             <p class="facebook1">Facebook</p>
@@ -27,16 +27,16 @@ function loginPanel() {
     showImage.classList.add("showImage");
 
 
-    showImage.src = "http://127.0.0.1:5500/assets/Essensials/hidden.png";
+    showImage.src = "/assets/Essensials/hidden.png";
 
 
     showImage.addEventListener("mouseover", function() {
-        showImage.src = "http://127.0.0.1:5500/assets/Essensials/eye%20(1).png";
+        showImage.src = "/assets/Essensials/eye%20(1).png";
         document.getElementById("pass").setAttribute("type", "text");
     });
 
     showImage.addEventListener("mouseout", function() {
-        showImage.src = "http://127.0.0.1:5500/assets/Essensials/hidden.png";
+        showImage.src = "/assets/Essensials/hidden.png";
         document.getElementById("pass").setAttribute("type", "password");
     });
 
@@ -140,8 +140,8 @@ function signIn() {
         <p class="error-message" id="numberError"></p>
 
         <p id="para3">Or, Log in with </p>
-        <img src="http://127.0.0.1:5500/assets/Essensials/google.png" alt="Google-icon" class="googleIcon1">
-        <img src="http://127.0.0.1:5500/assets/Essensials/facebook%20(3).png" alt="Facebook Icon" class="facebookIcon1">
+        <img src="/assets/Essensials/google.png" alt="Google-icon" class="googleIcon1">
+        <img src="/assets/Essensials/facebook%20(3).png" alt="Facebook Icon" class="facebookIcon1">
         <button class="create" id="createAccount">CREATE</button>
         <p onclick="closePanel()" class="closeIcon">🗙</p>
         <p class="Google1">Google</p>
@@ -155,15 +155,15 @@ function signIn() {
 
     let showImage = document.createElement("img");
     showImage.classList.add("showImage1");
-    showImage.src = "http://127.0.0.1:5500/assets/Essensials/hidden.png";
+    showImage.src = "/assets/Essensials/hidden.png";
 
     showImage.addEventListener("mouseover", function () {
-        showImage.src = "http://127.0.0.1:5500/assets/Essensials/eye%20(1).png";
+        showImage.src = "/assets/Essensials/eye%20(1).png";
         document.getElementById("pass").setAttribute("type", "text");
     });
 
     showImage.addEventListener("mouseout", function () {
-        showImage.src = "http://127.0.0.1:5500/assets/Essensials/hidden.png";
+        showImage.src = "/assets/Essensials/hidden.png";
         document.getElementById("pass").setAttribute("type", "password");
     });
 
