@@ -198,8 +198,8 @@
         <subcategory>Top</subcategory>
         <brand>Andriana</brand>
         <images>
-            <image>p18-1.webp</image>
-            <hoverImage>p18.webp</hoverImage>
+            <image>./assets/Women/27.webp</image>
+            <hoverImage>./assets/Women/27-1.webp</hoverImage>
             <Image>star.png</Image>
         </images>
         <size>S</size>
