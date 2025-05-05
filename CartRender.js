@@ -24,7 +24,7 @@ function renderCart() {
                                    <div id="empty-can">
                                         <img  id="empty-icon" src="box.png" alt="empty-icon">
                                    </div>
-                                   <button id="empty-button" onclick="redirectToHome()">SHOP OUR PRODUCTS
+                                   <button id="empty-button" onclick="window.location.href='index.html">SHOP OUR PRODUCTS
                                    
                                     </button>
                                    </div>
