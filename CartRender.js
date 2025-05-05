@@ -249,8 +249,8 @@ function checkout1(sum){
         <p onclick="closePanel()" class="closeIcon">🗙</p>
         <p class="head1">Shipping Details </p>
         <p class="head2">Payment Details</p>
-        <img src="./assets/Essensials/ic1.gif" alt="Logo" class="ic1">
-        <img src="./assets/Essensials/ic2.gif" alt="Logo" class="ic2">
+        <img src="ic1.gif" alt="Logo" class="ic1">
+        <img src="ic2.gif" alt="Logo" class="ic2">
         <div class="rect1">
                 <p class="Country">Country</p>
                 
@@ -314,11 +314,11 @@ function checkout1(sum){
                 
                 
                 </form>
-                <img src="./assets/Essensials/master.jpg" alt="masterCard" class="masterIMG">
-                <img src="./assets/Essensials/visa.jpg" alt="Visa" class="VisaIMG">
-                <img src="./assets/Essensials/Dis.png" alt="Discover" class="DiscoverIMG">
-                <img src="./assets/Essensials/Ame.png" alt="American" class="AmericanIMG">
-                <img src="./assets/Essensials/logo.png" alt="Koko" class="KokoIMG">
+                <img src="master.jpg" alt="masterCard" class="masterIMG">
+                <img src="visa.jpg" alt="Visa" class="VisaIMG">
+                <img src="Dis.png" alt="Discover" class="DiscoverIMG">
+                <img src="Ame.png" alt="American" class="AmericanIMG">
+                <img src="logo.png" alt="Koko" class="KokoIMG">
                 <p class="sec"> Pay security using your credit card</p>
                 <p id="alMsg2" class="error-message"></p>
                 <p class="CardText">Card Details :</p>
