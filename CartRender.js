@@ -318,7 +318,7 @@ function checkout1(sum){
                 <img src="visa.jpg" alt="Visa" class="VisaIMG">
                 <img src="Dis.png" alt="Discover" class="DiscoverIMG">
                 <img src="Ame.png" alt="American" class="AmericanIMG">
-                <img src="logo.png" alt="Koko" class="KokoIMG">
+                <img src="logo12.png" alt="Koko" class="KokoIMG">
                 <p class="sec"> Pay security using your credit card</p>
                 <p id="alMsg2" class="error-message"></p>
                 <p class="CardText">Card Details :</p>
