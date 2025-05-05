@@ -8,7 +8,7 @@
         <images>
             <image>p2.jpg</image>
             <hoverImage>p2-1.jpg</hoverImage>
-            <Image>/star.png</Image>
+            <Image>star.png</Image>
         </images>
         <size>L</size>
         <price>299</price>
