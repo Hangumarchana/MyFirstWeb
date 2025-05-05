@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="imageSlider.js"></script>
+    <script src="Home.js"></script>
+    <script src="CartRender.js"></script>
+    <script src="userCredentials.js"></script>
+    <script src="navigationHighlighter.js"></script>
+
+
+
+
+
+    <title>HangStore</title>
+</head>
+
+<body >
+
+<header>
+    <div class="TopRectangle" >
+        <h1 class="WebSiteLogo"> Hang Store</h1>
+        <img class="MainLogo" src="Mainlogo.png" width="200" height="200" alt="Mainlogo"  onclick="redirectToHome()">
+        <input type="text" class="searchbar" placeholder="Search Here ....">
+        <div class="userLogin">
+            <p class="userD1" id="myAc">Login / SignUp </p>
+            <p class="userD2" onclick="panelDeterminer()" id="myAc1">My Account</p>
+
+
+        </div>
+
+        <select class="categories" onchange="CategorySelector(this.value)">
+            <option>All Categories</option>
+            <option>Women</option>
+            <option>Men</option>
+            <option>Watches</option>
+            <option>Kids & Baby</option>
+            <option>Home & Living</option>
+
+
+        </select>
+
+
+        <img src="cart.png"  class="ShoppingCart" width="30" height="30" alt="ShoppingCart" onclick="redirectToCart()">
+        <span id="cartItemCount">0</span>
+        <img class="SearchIcon" src="search.png" width="15" height="15" alt="search">
+        <p class="cart-text"> Cart</p>
+        <div class="vertical-Line">
+
+        </div>
+
+        <div>
+            <div>
+                <nav class="navigation">
+                    <ul>
+                        <li id="nav1" class="Home" onclick="redirectToHome() "><a href="#home" > Home</a> </li>
+                        <li id="nav2" class="Women" onclick="redirectToWomen()"><a href="#women">Women</a></li>
+                        <li id="nav3" class="Men" onclick="redirectToMen()"><a href="#Men"> Men</a></li>
+                        <li id="nav4" class="Watches"  onclick="redirectToWatches()"><a href="#watches">Watches</a></li>
+                        <li id="nav5" class="Kids" onclick="redirectToKids()"><a href="#Kids" onclick="redirectToKids()">Kids & Baby</a></li>
+                        <li id="nav6" class="Home" onclick="redirectToLiving()"><a href="#home">Home & Living</a></li>
+                        <li id="nav7" class="Shoes" onclick="redirectToShoes()"> <a href="#Shoes"> Shoes</a></li>
+                        <li id="nav8" class="Bags" onclick="redirectToBags()"><a href="#Bags"> Bags</a></li>
+                        <li id="nav9" class="Toys" onclick="redirectToToys()"><a href="#Toys">Toys</a> </li>
+                        <li id="nav10" class="Beauty" onclick="redirectToBeauty()"> <a href="#beauty">Beauty & Health</a></li>
+                        <li id="nav11" class="Gifting" onclick="redirectToGifting()"><a href="#gifting">Gifting</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
+        </div>
+    </div>
+</header>
+<div class="blur-background" id="blurBackground"></div>
+<div id="loginContainer"></div>
+<div id="alertDisplay"><p id="al1"> HI HANGUM </p></div>
+
+    <section class="Container">
+        <div class="Slider-Wrapper">
+            <div class="Slider">
+                <img src="slide1.png" alt="Slider1" id="slide-1">
+                <img src="slide2.png" alt="Slider1" id="slide-2">
+                <img src="slide3.png" alt="Slider1" id="slide-3">
+                <img src="slide4.png" alt="Slider1" id="slide-4">
+            </div>
+            <div class="Slider-Nav">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+                <a href="#slide-4"></a>
+            </div>
+
+        </div>
+
+    </section>
+    <div class="MenRectangle">
+        <img src="men.jpg" alt="Men's Fashion " >
+        <button onclick="redirectToMen()">Men</button>
+
+    </div>
+    <div class="WomenRectangle">
+        <img src="women.jpg" alt="Women'sFashion">
+        <button onclick="redirectToWomen()">Women</button>
+
+    </div>
+    <div class="Kids&BabyRectangle">
+        <img src="group-beautiful-chlidren-posing.jpg" alt="Kid'sFashion">
+        <button onclick="redirectToKids()">Kids</button>
+
+    </div>
+    <div class="WatchesRectangles">
+        <img src="watch.jpg" alt="Men'sWatch">
+        <button class="WatchButton" onclick="redirectToWatches()">Watches</button>
+
+    </div>
+    <div class="Section1">
+        <p class="p1">50 % off super Sale</p>
+        <p class="p2">Update Your Experience Today !</p>
+        <p class="p3">
+            Discover a seamless shopping experience designed for elegance and ease.
+            From premium selections to effortless browsing, we bring you the finest
+            products with the convenience you deserve.
+        </p>
+
+
+        <button class="ExploreButton">Explore Now </button>
+        <div class="Rectangle">
+            <img src="girl.jpg" alt="Fashion-Girl">
+
+        </div>
+
+    </div>
+    <div class="Section2">
+        <div class="Section2Rectangle">
+            <p class="NewCollection"> New Collection</p>
+            <p class="para">Explore new collections every week, right at your fingertips! </p>
+
+        </div>
+
+        <div class="ProductBanner2">
+
+        </div>
+        <div class="ProductBanner3">
+
+        </div>
+        <div class="ProductBanner1">
+
+
+
+        </div>
+        <div class="Product1 description">
+            <img class="icon1" src="star.png" alt="Star">
+            <img class="icon2" src="star.png" alt="Star">
+            <img class="icon3" src="star.png" alt="Star">
+            <img class="icon4" src="star.png" alt="Star">
+
+
+
+            <p class="p1Details">
+                Andriana PEARLS & PASTELS
+                Women's Office Top
+            </p>
+            <p class="p1Price">$ 149</p>
+        </div>
+        <div class="Product2 description">
+            <img class="icon5" src="star.png" alt="Star">
+            <img class="icon6" src="star.png" alt="Star">
+            <img class="icon7" src="star.png" alt="Star">
+            <p class="p2Details">
+                Envogue DAZZLE Women's
+                Chic Party Dress
+            </p>
+            <p class="p2Price">$ 59</p>
+
+        </div>
+        <div class="Product3 description">
+            <img class="icon8" src="star.png" alt="Star">
+            <img class="icon9" src="star.png" alt="Star">
+            <p class="p3Details">
+                Modano Y2K Women's Chic Casual Top
+            </p>
+            <p class="p3Price">$ 49</p>
+
+        </div>
+    </div>
+    <div class="ShoppingSaleBanner">
+        <img src="salebanner%20(2).png" alt="SaleBanner"  class="ShoppingSalesIMG">
+        <button class="ShopNow">SHOP NOW</button>
+
+    </div>
+    <div class="Features">
+        <img src="home%20(1).png" alt="Home" class="WideRange">
+        <p class="feature1">Wide-ranging collection</p>
+        <p class="feature1Dep">
+            Shop online from your favourite
+            department store brand
+        </p>
+        <img src="delivery-truck.png" alt="Delivery" class="Delivery">
+        <p class="Feature2">All-island delivery</p>
+        <p class="Feature2Dep">
+            Delivery within 2-3 working
+            days
+        </p>
+        <img src="public-service.png" alt="Care" class="Care">
+        <p class="Feature3">Support you can trust</p>
+        <p class="Feature3Dep">
+            Contact us on 24 hr via
+            customer care
+        </p>
+
+    </div>
+    <div class="VideoFrame">
+        <video autoplay muted loop id="cinematicWomen">
+            <source src="cinematic.mp4" type="video/mp4">
+        </video>
+
+
+    </div>
+    <section class="Section3">
+        <div class="SectionHolder">
+            <p class="Section3Tag">BIG SALES</p>
+            <p class="Section3Dep">BUY 2, GET 1 FREE AND GET UP TO 75 % OFF ON SELECTED ITEMS</p>
+
+
+        </div>
+        <div class="ProductBanner4">
+        </div>
+        <div class="ProductBanner5">
+        </div>
+        <div class="ProductBanner6">
+        </div>
+        <div class="Production4Description">
+            <img class="icon10" src="star.png" alt="Star">
+            <img class="icon11" src="star.png" alt="Star">
+            <img class="icon12" src="star.png" alt="Star">
+            <img class="icon13" src="star.png" alt="Star">
+            <p class="product4Dep">
+                Envogue Women's Chic Casual Linen Dress
+            </p>
+            <p class="Product4Price">
+                $ 79
+            </p>
+        </div>
+        <div class="Production5Description">
+            <img class="icon14" src="star.png" alt="Star">
+            <img class="icon15" src="star.png" alt="Star">
+            <img class="icon16" src="star.png" alt="Star">
+            <p class="Product5Dep">
+                Core Basics Women's
+                Loungewear Short
+            </p>
+            <p class="Product5Price">$ 59</p>
+
+
+        </div>
+        <div class="Product6Description">
+            <img class="icon17" src="star.png" alt="Star">
+            <img class="icon18" src="star.png" alt="Star">
+            <p class="Product6Dep">
+                King Street TIMELESS Men's
+                Casual Shirt
+            </p>
+            <p class="Product6Price">$ 49</p>
+
+        </div>
+        
+
+
+
+    </section>
+    <section class="Footer">
+        <div class="FooterRectangle">
+            <P class="company">COMPANY & OUR POLICY</P>
+            <P class="connect">CONNECT WITH US</P>
+            <P class="Subscribe">SUBSCRIBE TO  NEWSLETTER</P>
+            <P class="FAQ">FAQ</P>
+            <P class="about us">ABOUT US</P>
+            <P class="privacy">PRIVACY POLICY</P>
+            <p class="delivery">DELIVERY TERMS</p>
+            <p class="promotions">PROMOTIONS</p>
+            <p class="return">RETURN POLICY</p>
+            <p class="tiktok">TIKTOK</p>
+            <p class="instagram">INSTAGRAM</p>
+            <p class="facebook">FACEBOOK</p>
+            <p class="whatsapp">WHATSAPP</p>
+            <p class="Cookies">COOKIES SETTINGS</p>
+
+            <p class="policy">
+                By subscribing, you agree to receive recurring automated
+                promotional and personalized marketing emails (e.g. cart
+                reminders) from us at the email used when subscribing.
+            </p>
+            <p class="copyright" >© 2024 hangstore All rights reserved. Powered by 20231905</p>
+            <img src="social%20(2).png" class="FB" alt="FacebookLogo">
+            <img src="logo.png" class="WA" alt="WhatsappLogo">
+            <img src="tiktok%20(1).png" class="TK" alt="TikTokLogo">
+            <img src="instagram%20(1).png" class="IG" alt="InstagramLogo">
+            <button class="Email">EMAIL</button>
+            <button class="SUB">SUBSCRIBE</button>
+            <div class="horizontal-line"></div>
+
+
+
+
+        </div>
+
+    </section>
+    <div class="Cart-Container">
+
+    </div>
+
+
+
+
+
+
+
+</body>
+</html>
